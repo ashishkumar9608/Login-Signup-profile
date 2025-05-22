@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from './firebase/login-auth'; // Adjust path if needed
-
+import {auth} from "../src/firebase/login-auth"
 function Home() {
   const router = useRouter();
 
