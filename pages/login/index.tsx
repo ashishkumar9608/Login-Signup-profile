@@ -6,11 +6,11 @@ import { useForm } from 'react-hook-form';
 import { joiResolver } from '@hookform/resolvers/joi';
 import Joi from 'joi';
 import { signInWithEmailAndPassword, signOut } from 'firebase/auth';
-import { auth } from '../firebase/login-auth';
+import { auth } from '../../src/firebase/login-auth';
 import { useRouter } from 'next/router';
 import toast, { Toaster } from 'react-hot-toast';
 import { useState } from 'react';
-import loginSchema from "./validation-schema/login-validation-schema"
+import loginSchema from "../../src/validation/login-validation-schema"
 
 type LoginFormData = {
     email: string;

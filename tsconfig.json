@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/login/validation-schema/login-validation-schema.ts"  ],
+, "src/validation/login-validation-schema.ts"  ],
   "exclude": [
     "node_modules"
   ]
